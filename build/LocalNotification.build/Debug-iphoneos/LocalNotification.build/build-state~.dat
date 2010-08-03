@@ -1,0 +1,429 @@
+TLocalNotification
+v7
+r0
+t292802465.319535
+cCheck dependencies
+cCpResource build/Debug-iphoneos/LocalNotification.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/Info.plist" LocalNotification-Info.plist
+cCompileXIB "/Users/cwiles/iPhone Projects/LocalNotification/MainWindow.xib"
+cCompileXIB "/Users/cwiles/iPhone Projects/LocalNotification/LocalNotificationViewController.xib"
+cProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch.gch LocalNotification_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch.gch LocalNotification_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/main.o "/Users/cwiles/iPhone Projects/LocalNotification/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationAppDelegate.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationViewController.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/main.o "/Users/cwiles/iPhone Projects/LocalNotification/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification" normal armv6
+cCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationAppDelegate.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationViewController.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification" normal armv7
+cCreateUniversalBinary "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app.dSYM" "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification"
+cProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/5674F29B-0D83-4DE8-8789-8C39284877CC.mobileprovision" "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/embedded.mobileprovision"
+cTouch "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent"
+cCodeSign "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004BBBFA370000000000000110
+t1270610487
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BAA718800000000000001A9
+t1269461384
+s425
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BAA718800000000000001E5
+t1269461384
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BB717360000000000546790
+t1270290230
+s5531536
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BB719560000000000623920
+t1270290774
+s6437152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BB7191F0000000000001466
+t1270290719
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BB9128A00000000000009CD
+t1270420106
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BB9138E0000000002992270
+t1270420366
+s43590256
+
+N/Users/cwiles/Library/MobileDevice/Provisioning Profiles/5674F29B-0D83-4DE8-8789-8C39284877CC.mobileprovision
+c000000004B59139E0000000000001BF1
+t1264128926
+s7153
+
+N/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.h
+c000000004BBE73850000000000000211
+t1270772613
+s529
+i<UIKit/UIKit.h>
+
+N/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m
+c000000004BBE891C0000000000000312
+t1270778140
+s786
+i"LocalNotificationAppDelegate.h"
+i"LocalNotificationViewController.h"
+
+N/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.h
+c000000004BBE73850000000000000102
+t1270772613
+s258
+i<UIKit/UIKit.h>
+
+N/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m
+c000000004BBE89C10000000000000778
+t1270778305
+s1912
+i"LocalNotificationViewController.h"
+
+N/Users/cwiles/iPhone Projects/LocalNotification/LocalNotificationViewController.xib
+c000000004BBE73850000000000001A6D
+t1270772613
+s6765
+
+N/Users/cwiles/iPhone Projects/LocalNotification/LocalNotification_Prefix.pch
+c000000004BBE738500000000000000CB
+t1270772613
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwiles/iPhone Projects/LocalNotification/MainWindow.xib
+c000000004BBE73850000000000004D83
+t1270772613
+s19843
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app
+t1271109665
+s374
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app.dSYM
+t1271109665
+s102
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/Info.plist
+t1271109662
+s723
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification
+t1271109665
+s41852
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotificationViewController.nib
+t1271109663
+s795
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/MainWindow.nib
+t1271109663
+s1205
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/PkgInfo
+t1271109662
+s8
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/ResourceRules.plist
+t1271109663
+s485
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/embedded.mobileprovision
+t1271109665
+s7153
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent
+t1271109665
+s440
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification
+t1271109664
+s17276
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification.LinkFileList
+c000000004BC3981E00000000000001E6
+t1271109662
+s486
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationAppDelegate.o
+t1271109664
+s45388
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationViewController.o
+t1271109664
+s39580
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/main.o
+t1271109664
+s6456
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification
+t1271109665
+s17276
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification.LinkFileList
+c000000004BC3981E00000000000001E6
+t1271109662
+s486
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationAppDelegate.o
+t1271109665
+s45312
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationViewController.o
+t1271109665
+s39512
+
+N/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/main.o
+t1271109664
+s6440
+
+N/Users/cwiles/iPhone Projects/LocalNotification/main.m
+c000000004BBE73850000000000000169
+t1270772613
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch.gch
+t1271109664
+s10262064
+
+N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch.gch
+t1271109664
+s9799216
+
+NLocalNotification-Info.plist
+c000000004BBE7385000000000000038D
+t1270772613
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies292802462#292802462#0(0"0(0#1#0"4300739032#0"0#
+
+CCodeSign "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app"
+s292802465.133585
+e292802465.319493
+r1
+xCodeSign
+x/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app
+lSLF07#2@51"CodeSign build/Debug-iphoneos/LocalNotification.app292802465#292802465#0(0"0(0#0#90"/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app4300739032#746"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Cory Wiles" "--resource-rules=/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/ResourceRules.plist" --entitlements "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent" "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app"0#
+
+CCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationAppDelegate.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292802464.741394
+e292802464.849737
+r1
+xCompileC
+xbuild/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationAppDelegate.o
+x/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m292802464#292802464#0(0"0(0#0#86"/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m4300739032#2101"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv6" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch -c "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationAppDelegate.o"0#
+
+CCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationViewController.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292802464.830903
+e292802464.930124
+r1
+xCompileC
+xbuild/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationViewController.o
+x/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m292802464#292802464#0(0"0(0#0#89"/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m4300739032#2107"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv6" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch -c "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotificationViewController.o"0#
+
+CCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/main.o "/Users/cwiles/iPhone Projects/LocalNotification/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292802464.739563
+e292802464.830785
+r1
+xCompileC
+xbuild/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/main.o
+x/Users/cwiles/iPhone Projects/LocalNotification/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/cwiles/iPhone Projects/LocalNotification/main.m292802464#292802464#0(0"0(0#0#54"/Users/cwiles/iPhone Projects/LocalNotification/main.m4300739032#2045"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv6" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch -c "/Users/cwiles/iPhone Projects/LocalNotification/main.m" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationAppDelegate.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s292802464.937352
+e292802465.030408
+r1
+xCompileC
+xbuild/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationAppDelegate.o
+x/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m292802464#292802465#0(0"0(0#0#86"/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m4300739032#2101"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv7" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch -c "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationAppDelegate.m" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationAppDelegate.o"0#
+
+CCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationViewController.o "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s292802464.970854
+e292802465.039646
+r1
+xCompileC
+xbuild/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationViewController.o
+x/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m292802464#292802465#0(0"0(0#0#89"/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m4300739032#2107"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv7" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch -c "/Users/cwiles/iPhone Projects/LocalNotification/Classes/LocalNotificationViewController.m" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotificationViewController.o"0#
+
+CCompileC build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/main.o "/Users/cwiles/iPhone Projects/LocalNotification/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s292802464.849850
+e292802464.937245
+r1
+xCompileC
+xbuild/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/main.o
+x/Users/cwiles/iPhone Projects/LocalNotification/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/cwiles/iPhone Projects/LocalNotification/main.m292802464#292802464#0(0"0(0#0#54"/Users/cwiles/iPhone Projects/LocalNotification/main.m4300739032#2045"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv7" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch -c "/Users/cwiles/iPhone Projects/LocalNotification/main.m" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/cwiles/iPhone Projects/LocalNotification/LocalNotificationViewController.xib"
+s292802463.244603
+e292802463.629688
+r1
+xCompileXIB
+x/Users/cwiles/iPhone Projects/LocalNotification/LocalNotificationViewController.xib
+lSLF07#2@46"CompileXIB LocalNotificationViewController.xib292802463#292802463#0(0"0(0#0#83"/Users/cwiles/iPhone Projects/LocalNotification/LocalNotificationViewController.xib4300739032#551"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotificationViewController.nib" "/Users/cwiles/iPhone Projects/LocalNotification/LocalNotificationViewController.xib"0#
+
+CCompileXIB "/Users/cwiles/iPhone Projects/LocalNotification/MainWindow.xib"
+s292802463.243406
+e292802463.620922
+r1
+xCompileXIB
+x/Users/cwiles/iPhone Projects/LocalNotification/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib292802463#292802463#0(0"0(0#0#62"/Users/cwiles/iPhone Projects/LocalNotification/MainWindow.xib4300739032#509"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/MainWindow.nib" "/Users/cwiles/iPhone Projects/LocalNotification/MainWindow.xib"0#
+
+CCpResource build/Debug-iphoneos/LocalNotification.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s292802462.858291
+e292802463.243256
+r1
+xCpResource
+xbuild/Debug-iphoneos/LocalNotification.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist292802462#292802463#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist4300739032#512"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app"0#
+
+CCreateUniversalBinary "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification" normal "armv6 armv7"
+s292802465.075403
+e292802465.078539
+r1
+xCreateUniversalBinary
+x/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification
+xnormal
+xarmv6 armv7
+lSLF07#2@103"CreateUniversalBinary build/Debug-iphoneos/LocalNotification.app/LocalNotification normal "armv6 armv7"292802465#292802465#0(0"0(0#0#59"/Users/cwiles/iPhone Projects/LocalNotification/armv6 armv74300739032#642"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification" "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification" -output "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification"0#
+
+CGenerateDSYMFile "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app.dSYM" "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification"
+s292802465.078626
+e292802465.100801
+r1
+xGenerateDSYMFile
+x/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app.dSYM
+x/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification
+lSLF07#2@125"GenerateDSYMFile build/Debug-iphoneos/LocalNotification.app.dSYM build/Debug-iphoneos/LocalNotification.app/LocalNotification292802465#292802465#0(0"0(0#0#108"/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification4300739032#425"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/LocalNotification" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app.dSYM"0#
+
+CLd "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification" normal armv6
+s292802464.930225
+e292802464.970738
+r1
+xLd
+x/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification
+xnormal
+xarmv6
+lSLF07#2@160"Link /Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification292802464#292802464#0(0"0(0#0#0"4300739032#974"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" -filelist "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv6/LocalNotification"0#
+
+CLd "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification" normal armv7
+s292802465.039745
+e292802465.075289
+r1
+xLd
+x/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification
+xnormal
+xarmv7
+lSLF07#2@160"Link /Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification292802465#292802465#0(0"0(0#0#0"4300739032#974"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" -filelist "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/Objects-normal/armv7/LocalNotification"0#
+
+CProcessInfoPlistFile "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/Info.plist" LocalNotification-Info.plist
+s292802462.859434
+e292802462.864301
+r1
+xProcessInfoPlistFile
+x/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/Info.plist
+xLocalNotification-Info.plist
+lSLF07#2@36"Process LocalNotification-Info.plist292802462#292802462#0(0"0(0#0#76"/Users/cwiles/iPhone Projects/LocalNotification/LocalNotification-Info.plist4300739032#646"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LocalNotification-Info.plist -genpkginfo "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/ResourceRules.plist" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/Info.plist"0#
+
+CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch.gch LocalNotification_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s292802463.631109
+e292802464.739283
+r1
+xProcessPCH
+x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch.gch
+xLocalNotification_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile LocalNotification_Prefix.pch292802463#292802464#0(0"0(0#0#76"/Users/cwiles/iPhone Projects/LocalNotification/LocalNotification_Prefix.pch4300739032#1922"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv7" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/LocalNotification/LocalNotification_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-ckslrcwucmxslzataucwufyiguho/LocalNotification_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch.gch LocalNotification_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292802463.629944
+e292802464.567900
+r1
+xProcessPCH
+x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch.gch
+xLocalNotification_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile LocalNotification_Prefix.pch292802463#292802464#0(0"0(0#0#76"/Users/cwiles/iPhone Projects/LocalNotification/LocalNotification_Prefix.pch4300739032#1922"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/include" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources/armv6" "-I/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/LocalNotification/LocalNotification_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LocalNotification_Prefix-domgcpjunqefkrdbofzjeleizsex/LocalNotification_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/5674F29B-0D83-4DE8-8789-8C39284877CC.mobileprovision" "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/embedded.mobileprovision"
+s292802465.100902
+e292802465.102314
+r1
+xProcessProductPackaging
+x/Users/cwiles/Library/MobileDevice/Provisioning Profiles/5674F29B-0D83-4DE8-8789-8C39284877CC.mobileprovision
+x/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/5674F29B-0D83-4DE8-8789-8C39284877CC.mobileprovision" build/Debug-iphoneos/LocalNotification.app/embedded.mobileprovision292802465#292802465#0(0"0(0#0#115"/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/embedded.mobileprovision4300739032#456"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/5674F29B-0D83-4DE8-8789-8C39284877CC.mobileprovision" -o "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent"
+s292802465.105345
+e292802465.133384
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent292802465#292802465#0(0"0(0#0#140"/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent4300739032#484"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/cwiles/iPhone Projects/LocalNotification/build/LocalNotification.build/Debug-iphoneos/LocalNotification.build/LocalNotification.xcent"0#
+
+CTouch "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app"
+s292802465.102382
+e292802465.105259
+r1
+xTouch
+x/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app
+lSLF07#2@96"Touch /Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app292802465#292802465#0(0"0(0#0#0"4300739032#296"    cd "/Users/cwiles/iPhone Projects/LocalNotification"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/cwiles/iPhone Projects/LocalNotification/build/Debug-iphoneos/LocalNotification.app"0#
+

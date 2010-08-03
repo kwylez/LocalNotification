@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	0151F791116EAB05002B7D74 /* LocalNotification */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LocalNotification;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0151F7A0116EAB0C002B7D74 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0151F7A1116EAB0C002B7D74 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0151F7C1116EC7E2002B7D74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0151F7C2116EC7E2002B7D74 /* NSDate.h */;
+		name = "NSDate.h: 15";
+		rLen = 51;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 1767;
+		vrLoc = 0;
+	};
+	0151F7C2116EC7E2002B7D74 /* NSDate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSDate.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h;
+		sourceTree = "<absolute>";
+	};
+	0151F7C3116EC7E2002B7D74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0151F7C4116EC7E2002B7D74 /* NSTimeZone.h */;
+		name = "NSTimeZone.h: 10";
+		rLen = 55;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 1790;
+		vrLoc = 0;
+	};
+	0151F7C4116EC7E2002B7D74 /* NSTimeZone.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSTimeZone.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTimeZone.h;
+		sourceTree = "<absolute>";
+	};
+	0151F7C6116EC7E2002B7D74 /* UILocalNotification.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UILocalNotification.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILocalNotification.h;
+		sourceTree = "<absolute>";
+	};
+	01A61AF11174EDAC008C78D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0151F7C6116EC7E2002B7D74 /* UILocalNotification.h */;
+		name = "UILocalNotification.h: 13";
+		rLen = 72;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 1791;
+		vrLoc = 0;
+	};
+	01DE69DD11C1695C00C83085 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* LocalNotificationViewController.h */;
+		name = "LocalNotificationViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 258;
+		vrLoc = 0;
+	};
+	01DE69DE11C1695C00C83085 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LocalNotificationAppDelegate.h */;
+		name = "LocalNotificationAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 0;
+	};
+	01DE69DF11C1695C00C83085 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LocalNotificationAppDelegate.m */;
+		name = "LocalNotificationAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 0;
+	};
+	01F1D44D11C174130065198C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LocalNotificationViewController.m */;
+		name = "LocalNotificationViewController.m: 37";
+		rLen = 19;
+		rLoc = 895;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 442;
+	};
+	01F1D45B11C174630065198C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* LocalNotificationViewController.m */;
+		name = "LocalNotificationViewController.m: 37";
+		rLen = 19;
+		rLoc = 895;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 442;
+	};
+	1D3623240D0F684500981E51 /* LocalNotificationAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 529}";
+		};
+	};
+	1D3623250D0F684500981E51 /* LocalNotificationAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 780}}";
+			sepNavSelRange = "{683, 0}";
+			sepNavVisRange = "{0, 786}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LocalNotification */ = {
+		activeExec = 0;
+		executables = (
+			0151F791116EAB05002B7D74 /* LocalNotification */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* LocalNotificationViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 258}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* LocalNotificationViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 1014}}";
+			sepNavSelRange = "{895, 19}";
+			sepNavVisRange = "{442, 1470}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0151F791116EAB05002B7D74 /* LocalNotification */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LocalNotification */;
+		codeSenseManager = 0151F7A1116EAB0C002B7D74 /* Code sense */;
+		executables = (
+			0151F791116EAB05002B7D74 /* LocalNotification */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					819,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 297890806;
+			PBXWorkspaceStateSaveDate = 297890806;
+		};
+		perUserProjectItems = {
+			0151F7C1116EC7E2002B7D74 /* PBXTextBookmark */ = 0151F7C1116EC7E2002B7D74 /* PBXTextBookmark */;
+			0151F7C3116EC7E2002B7D74 /* PBXTextBookmark */ = 0151F7C3116EC7E2002B7D74 /* PBXTextBookmark */;
+			01A61AF11174EDAC008C78D6 /* PBXTextBookmark */ = 01A61AF11174EDAC008C78D6 /* PBXTextBookmark */;
+			01DE69DD11C1695C00C83085 /* PBXTextBookmark */ = 01DE69DD11C1695C00C83085 /* PBXTextBookmark */;
+			01DE69DE11C1695C00C83085 /* PBXTextBookmark */ = 01DE69DE11C1695C00C83085 /* PBXTextBookmark */;
+			01DE69DF11C1695C00C83085 /* PBXTextBookmark */ = 01DE69DF11C1695C00C83085 /* PBXTextBookmark */;
+			01F1D44D11C174130065198C /* PBXTextBookmark */ = 01F1D44D11C174130065198C /* PBXTextBookmark */;
+			01F1D45B11C174630065198C /* PBXTextBookmark */ = 01F1D45B11C174630065198C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0151F7A0116EAB0C002B7D74 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
