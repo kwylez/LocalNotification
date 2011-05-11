@@ -20,6 +20,11 @@
   
   UIApplication *app                = [UIApplication sharedApplication];
   UILocalNotification *notification = [[UILocalNotification alloc] init];
+  NSArray *oldNotifications         = [app scheduledLocalNotifications];
+  
+  if ([oldNotifications count] > 0) {
+    [app cancelAllLocalNotifications];
+  }
   
   if (notification == nil)
     return;
